@@ -4,7 +4,7 @@
 
   
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500; 
+  font-weight: 400; 
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 }
 
 a:hover{
-  border-bottom: 2px solid var(--font-color);
+  border-bottom: 1px solid var(--font-color);
   transition: 0.1s;
 }
 
@@ -23,9 +23,20 @@ a:active{
   color: var(--font-color-reverse);
 }
 
+hr{
+  height:1px; 
+  border: none;
+  background: var(--font-color);
+}
+
 body{
   display: flex;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   color: var(--font-color);
+}
+
+#content{
+  width: 1400px;
 }
